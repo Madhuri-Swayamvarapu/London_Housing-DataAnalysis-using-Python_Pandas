@@ -20,71 +20,71 @@ Matplotlib
 
 **Libraries & Commands Used**
 
-Pandas Library-->import pandas as pd
+**Pandas Library-->import pandas as pd**
 
   Used to perform data manipulation and analysis.
 
-Reading CSV File-->pd.read_csv()
+**Reading CSV File-->pd.read_csv()**
 
   Used to import the CSV dataset into Jupyter Notebook.
 
-Counting Non-Null Values-->df.count()
+**Counting Non-Null Values-->df.count()**
 
    Counts the number of non-null values in each column.
 
-Checking Missing Values-->df.isnull().sum()
+**Checking Missing Values-->df.isnull().sum()**
 
    Detects missing/null values from the dataframe.
 
-Seaborn Library-->import seaborn as sns
+**Seaborn Library-->import seaborn as sns**
 
    Used for data visualization.
 
-Matplotlib Library-->import matplotlib.pyplot as plt
+**Matplotlib Library-->import matplotlib.pyplot as plt**
 
    Used for plotting graphs and charts.
 
-Heatmap for Missing Values-->sns.heatmap(df.isnull())
+**Heatmap for Missing Values-->sns.heatmap(df.isnull())**
 
    Displays missing values using a heatmap.
 
-Display Plot--.plt.show()
+**Display Plot--.plt.show()**
 
    Used to display the graph.
 
-Checking Data Types-->df.dtypes
+**Checking Data Types-->df.dtypes**
 
    Shows datatype of each column.
 
-Convert Date Column to Datetime--.pd.to_datetime(df.Date)
+**Convert Date Column to Datetime--.pd.to_datetime(df.Date)**
 
    Converts the Date column into datetime format.
 
-Extracting Year-->df.Date.dt.year
+**Extracting Year-->df.Date.dt.year**
 
    Creates a column containing only year values.
 
-Extracting Month-->df.Date.dt.month
+**Extracting Month-->df.Date.dt.month**
 
    Creates a column containing only month values.
 
-Insert New Column-->df.insert()
+**Insert New Column-->df.insert()**
 
    Used to insert a new column at a specific position.
 
-Drop Columns-->df.drop()
+**Drop Columns-->df.drop()**
 
    Removes columns permanently from dataframe.
 
-Grouping Data-->df.groupby()
+**Grouping Data-->df.groupby()**
 
    Groups data based on unique column values.
 
-Filtering Records-->df[df.Column == 'Value']
+**Filtering Records-->df[df.Column == 'Value']**
 
    Used to filter specific records.
 
-Group By with Mean-->df.groupby('Col_1')['Col_2'].mean()
+**Group By with Mean-->df.groupby('Col_1')['Col_2'].mean()**
 
    Calculates mean values after grouping data.
 
